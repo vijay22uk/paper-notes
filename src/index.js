@@ -2,7 +2,9 @@ import * as React from 'react'
 
 import * as ReactDom from 'react-dom'
 
+import App from './app';
+
 ReactDom.render(
-    <h1>Hello</h1>,
+    <App />,
     document.getElementById('app')
 )

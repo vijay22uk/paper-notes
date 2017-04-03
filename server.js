@@ -7,7 +7,7 @@ let server = require('http').Server(app)
 let port = process.env.PORT || 3000
 
 // Serve static files from /public
-app.use(express.static('src/public'))
+app.use(express.static('public'))
 
 // Create an endpoint which just returns the index.html page
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'index.html')))
