@@ -1,0 +1,36 @@
+{
+  "name": "paper-notes",
+  "version": "1.0.0",
+  "description": "paper-notes",
+  "main": "server.js",
+  "dependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "express": "^4.15.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijay22uk/paper-notes.git"
+  },
+  "author": "vijay22uk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijay22uk/paper-notes/issues"
+  },
+  "homepage": "https://github.com/vijay22uk/paper-notes#readme"
+}
